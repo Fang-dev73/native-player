@@ -19,10 +19,10 @@
   ],
   "author": "Yash Narula",
   "license": "MIT",
-  "homepage": "https://github.com/yashnarula/native-player",
+  "homepage": "https://github.com/Fang-dev73/native-player.git",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yashnarula/native-player.git"
+    "url": "https://github.com/Fang-dev73/native-player.git"
   },
   "peerDependencies": {
     "react": "*",
