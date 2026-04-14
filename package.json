@@ -1,0 +1,31 @@
+{
+  "name": "@nyjs/native-player",
+  "version": "1.0.0",
+  "description": "High performance native video player for React Native",
+  "main": "src/index.js",
+  "react-native": "src/index",
+  "types": "src/index.ts",
+  "files": [
+    "src",
+    "android",
+    "ios",
+    "native-player.podspec"
+  ],
+  "keywords": [
+    "video",
+    "player",
+    "react-native",
+    "native"
+  ],
+  "author": "Yash Narula",
+  "license": "MIT",
+  "homepage": "https://github.com/yashnarula/native-player",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yashnarula/native-player.git"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}

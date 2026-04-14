@@ -1,0 +1,25 @@
+#import <React/RCTViewManager.h>
+
+@interface RCT_EXTERN_MODULE (RNVideoPlayer, RCTViewManager)
+
+RCT_EXPORT_VIEW_PROPERTY(source, id)
+RCT_EXPORT_VIEW_PROPERTY(index, NSInteger)
+RCT_EXPORT_VIEW_PROPERTY(title, NSString)
+RCT_EXPORT_VIEW_PROPERTY(paused, BOOL)
+RCT_EXPORT_VIEW_PROPERTY(controls, BOOL)
+RCT_EXPORT_VIEW_PROPERTY(enableSubtitle, BOOL)
+RCT_EXPORT_VIEW_PROPERTY(progressColor, UIColor)
+RCT_EXPORT_VIEW_PROPERTY(trackColor, UIColor)
+RCT_EXPORT_VIEW_PROPERTY(thumbColor, UIColor)
+RCT_EXPORT_VIEW_PROPERTY(buttonTintColor, UIColor)
+RCT_EXPORT_VIEW_PROPERTY(durationColor, UIColor)
+RCT_EXPORT_VIEW_PROPERTY(subtitleColor, UIColor)
+RCT_EXPORT_VIEW_PROPERTY(subtitleCheckboxColor, UIColor)
+RCT_EXPORT_VIEW_PROPERTY(subtitleDescriptionColor, UIColor)
+RCT_EXPORT_VIEW_PROPERTY(resumePlaybackEnabled, BOOL)
+RCT_EXPORT_VIEW_PROPERTY(onLoad, RCTDirectEventBlock)
+RCT_EXPORT_VIEW_PROPERTY(onProgress, RCTDirectEventBlock)
+RCT_EXPORT_VIEW_PROPERTY(onVideoEnd, RCTDirectEventBlock)
+RCT_EXPORT_VIEW_PROPERTY(onBack, RCTDirectEventBlock)
+
+@end
