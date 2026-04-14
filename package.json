@@ -22,7 +22,7 @@
   "homepage": "https://github.com/Fang-dev73/native-player.git",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Fang-dev73/native-player.git"
+    "url": "git+https://github.com/Fang-dev73/native-player.git"
   },
   "peerDependencies": {
     "react": "*",
